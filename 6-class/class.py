@@ -1,5 +1,5 @@
 class Employee:
-    code = 66 # 静态变量, Employee.code, 实例对象.code 可改变
+    code = 66  # 静态变量, Employee.code, 实例对象.code 可改变
     # 成员变量
     salary = 0
     name = ""
@@ -111,7 +111,3 @@ def main():
         v.add_trucks(t)
 
     print(v.trucks)
-
-
-
-
